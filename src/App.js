@@ -34,10 +34,10 @@ function App() {
     <div className="App">
       <div style={{fontSize: '40px'}}>{cash}</div>
       <div className="buttons-block">
-        <button onClick={() => addCash(Number(prompt()))}>Пополнить счет</button>
-        <button onClick={() => getCash(Number(prompt()))}>Снять со счета</button>
-        <button onClick={() => addCustomer(prompt())}>Добавить клиента</button>
-        <button onClick={() => dispatch(fetchCustomers())}>Получить клиентов</button>
+        <button onClick={() => addCash(Number(prompt()))}>Пополнить счет!</button>
+        <button onClick={() => getCash(Number(prompt()))}>Снять со счета!</button>
+        <button onClick={() => addCustomer(prompt())}>Добавить клиента!</button>
+        <button onClick={() => dispatch(fetchCustomers())}>Получить клиентов!</button>
       </div>
 
       {
