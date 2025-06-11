@@ -1,8 +1,7 @@
+import { useEffect } from "react";
+import { useAppDispatch, useAppSelector } from "./hooks/redux";
+import { fetchUsers } from "./store/reducers/ActionCreators";
 import './App.css';
-import {useAppDispatch, useAppSelector} from "./hooks/redux";
-import {userSlice} from "./store/reducers/UserSlice";
-import {useEffect} from "react";
-import {fetchUsers} from "./store/reducers/ActionCreators";
 
 function App() {
   const dispatch = useAppDispatch();
